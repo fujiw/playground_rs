@@ -19,4 +19,10 @@ async fn main() {
     };
 
     //println!("{}", s);
+
+    await_test().await;
+}
+
+async fn await_test() {
+    println!("hello from async fn")
 }
